@@ -1,0 +1,32 @@
+.common-side-bar {
+    background: #fff;
+    /* min-height: 780px; */
+}
+.common-side-bar .row div {
+    background: #fff;
+}
+.common-side-bar i {
+    font-size: 0.8rem;
+    background: #fff;
+}
+.common-side-bar span.social-icon {
+    border: none;
+    border-radius: 50%;
+}
+.common-side-bar span.social-icon i {
+    text-align: center;
+    position: relative;
+    top: calc(50% - 9px);
+    background: transparent;
+}
+.common-side-bar .links div{
+    font-size: 0.8rem;
+}
+.dashboard-menue {
+    position: relative;
+    top: 6px;
+}
+.mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+}

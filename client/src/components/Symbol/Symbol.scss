@@ -1,0 +1,41 @@
+.symbol-count {
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+    --tw-bg-opacity: 1;
+    background-color: #eae2e2;
+    --tw-text-opacity: 1;
+    color: #000;
+    border-radius: 9999px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    display: inline-block;
+    span {
+        top: 15%;
+        left: 9%;
+        position: absolute;
+    }
+}
+.symbol-title-list {
+    font-size: 0.8rem;
+    display: inline-block;
+    line-height: 2rem;
+    left: 48px;
+    font-weight: 700;
+}
+.symbol-sparkline {
+    width: 70px;
+}
+
+.graph-partbox {
+    border: solid 1px #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    .graph-partbox:last-child{
+    margin-bottom: 0px;
+    }

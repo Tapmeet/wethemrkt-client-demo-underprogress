@@ -1,0 +1,186 @@
+.text-transform{
+    text-transform: capitalize;
+}
+
+.title-text{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+
+.following-text span{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.user-title h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.user-title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-title button{
+    font-size: 13px !important;
+}
+
+.about-text h6{ 
+    color: #000;
+}
+
+.about-text p{ 
+    color: #000 !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.avatar-md1 {
+    height: 100px;
+    width: 100px;
+}
+
+.coins-text{
+    font-size: 16px;
+}
+
+.progress-profile{
+    height: 12px !important;
+}
+
+
+// ----------
+.profile-pic {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input {
+    display: none;
+}
+.profile-pic img {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, .35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10000;
+    width: 165px;
+    height: 165px;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+
+
+
+
+
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+  }
+  
+  .tags li {
+    float: left; 
+  }
+  
+  .tag {
+    background: #f3f3f9;
+    border-radius: 3px 0 0 3px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 26px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  }
+  
+  .tag::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #f3f3f9;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .mentor-text span{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #f3f3f9;
+    color: #000;
+    font-weight: 500;
+}
+
+.mentor-text i{
+    color: #1c73e4;
+}
+
+.edit-btn{
+    float: right !important;
+}
+
+.username{
+    cursor: pointer;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.profile-img{
+    width: 125px !important; 
+    height: 125px !important;
+}

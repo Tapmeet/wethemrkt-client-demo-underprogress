@@ -1,0 +1,103 @@
+.watchlist-title{
+    font-size: 16px;
+    color: #101010;
+    margin-bottom: 14px;
+    padding-top: 20px;
+}
+
+.watchlist-text{
+    font-size: 14px;
+    color: #101010;
+
+}
+
+.btn-login{
+    transition: 0.4s !important;
+    border-color: #d7d9dc !important;
+    padding: 7px 24px !important;
+    color: #1c73e4 !important;
+    // font-weight:600 !important;
+    font-size: 15px !important;
+}
+
+.btn-login:hover{
+    color: #1c73e4 !important;
+    background-color: #dbeffc !important;
+    border-color: transparent !important;
+}
+
+.btn-sign-up{
+    transition: 0.4s !important;
+    border-color: #d7d9dc !important;
+    padding: 7px 24px !important;
+    color: #fff !important;
+    // font-weight:600 !important;
+    font-size: 15px !important;
+    background-color: #1c73e4 !important;
+}
+
+.btn-sign-up:hover{
+    color: #1c73e4 !important;
+    background-color: #dbeffc !important;
+    border-color: transparent !important;
+}
+
+.Watchlist {
+    padding: 6px 22px 0px;
+    font-size: 13px;
+    border-color: rgb(246, 246, 246);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.Watchlist-border{
+    padding: 8px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 0;
+}
+
+.Watchlist-border::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    bottom: 0px;
+    left: 8px;
+    background-color: rgb(33, 141, 255);
+}
+
+.st_aVIfaYY {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.form-select:focus{
+    box-shadow: none !important;
+}
+
+.up-icon{
+    font-size: 25px;
+    color: #35dd8f;
+    padding-right: 15px;
+}
+
+.down-icon{
+    font-size: 25px;
+    color: red;
+}
+
+.tabel-title td{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.username{
+    text-transform:capitalize;
+}
+
+.dollar-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center !important;
+}

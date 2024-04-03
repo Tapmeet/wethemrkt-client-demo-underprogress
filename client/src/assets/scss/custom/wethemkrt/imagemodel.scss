@@ -1,0 +1,32 @@
+
+.model-close-img{
+    color: rgb(255, 255, 255) !important;
+    width: 35px !important;
+    height: 35px !important;
+    // line-height: 60px !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    position: absolute !important;
+    right: 20px !important;
+    top: 20px !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+    cursor: pointer !important;
+    z-index: 2 !important;
+    transition: 0.4s;
+    padding: 0 !important;
+}
+
+.model-close-img:hover{
+    background-color: #556ee6 !important;
+}
+
+.model-close-img i{
+    font-size: 20px;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+}
+
+.modal-bg .modal-content{
+    background-color: transparent !important;
+}

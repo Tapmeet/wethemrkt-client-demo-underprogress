@@ -1,0 +1,192 @@
+.comment-field {
+	display: flex;
+	width: 100%;
+}
+
+.cf-userpic {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.cf-userpic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h6.cf-name {
+	font-size: 16px;
+	color: #202020;
+	font-weight: 600;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+p.cf-commnet-field {
+	font-size: 14px;
+	color: #1e1e1e;
+	margin-bottom: 10px;
+}
+
+.cf-chatbox {
+	background: #eee;
+	padding: 15px;
+	border-radius: 8px;
+	width: 100%;
+	max-width: 600px;
+}
+
+.cf-actionbox {
+	display: flex;
+	grid-gap: 10px;
+	align-items: center;
+	padding: 10px 0px;
+}
+
+.post-like a {
+	color: #17db17;
+}
+
+.post-dislike a {
+	color: #f93f2a;
+}
+
+.reply-cmnt-link a {
+	font-size: 15px;
+	color: #3a3a3a;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.type-comment {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.cf-userinfo {
+	width: 100%;
+}
+
+.type-comment .comment-part {
+	background: #eee;
+	padding: 5px;
+	border-radius: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	div.DraftEditor-root {
+		height: auto;
+		width: 100%;
+		overflow-y: auto;
+	}
+}
+
+.count-reply a {
+	font-size: 15px;
+	color: #3a3a3a;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.comment-part input {
+	width: 80%;
+	height: 45px;
+	border: none;
+	outline: none;
+	padding: 8px 12px;
+	background: transparent;
+}
+
+.comment-part input[type="submit"] {
+	width: 100px;
+	background: rgb(31, 126, 194);
+	background: linear-gradient(
+		90deg,
+		rgba(31, 126, 194, 1) 0%,
+		rgba(39, 168, 225, 1) 100%
+	);
+	color: #fff !important;
+	border-radius: 5px;
+}
+
+.type-commentpart {
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+.cf-commnet-field {
+	word-break: break-word;
+}
+
+.usb-info .d-flex.align-items-center {
+	width: 100%;
+	justify-content: space-between;
+}
+.outer-comment-part-input {
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: solid 1px #eee;
+	.usb-info .d-flex.align-items-center {
+		width: 100%;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.ubox-middle {
+		width: 100%;
+	}
+	.usb-info .d-flex.align-items-center {
+		width: 100%;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.type-comment .comment-part div.DraftEditor-root {
+		padding: 5px 2px;
+	}
+}
+.inner-comment-part-input {
+	.usb-info .d-flex.align-items-center {
+		flex-wrap: nowrap;
+	}
+}
+
+.reply-box {
+	padding-top: 25px;
+}
+
+.comment-part form {
+	width: 100%;
+}
+
+.usb-info .d-flex.align-items-center {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.comment-part .usb-info {
+	width: 100% !important;
+}
+
+.cf-commnet-field {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+h6.cf-name {
+	font-size: 15px;
+	color: #202020;
+	font-weight: 600;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+
+.post-time {
+	font-size: 13px;
+}
+
+.reply-cmnt-link a {
+	font-size: 13px;
+}

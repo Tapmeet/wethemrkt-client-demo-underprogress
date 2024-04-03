@@ -1,0 +1,21 @@
+.modal-header {
+    .close {
+        z-index: 9999;
+        background: #cd0f0f;
+        padding: 20px;
+        width: 20px;
+        border-top-right-radius: 10%;
+        height: 20px;
+        opacity: 1;
+        margin-right: -1px;
+        margin-top: -1px !important;
+        span {
+            font-size: 40px;
+            color: white;
+            position: absolute;
+            right: calc(50% - 14px);
+            top: -8px;
+            display: block;
+        }
+    }
+}

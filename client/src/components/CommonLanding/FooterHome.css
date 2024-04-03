@@ -1,0 +1,22 @@
+span.social-icon {
+    border: none;
+}
+span.social-icon i {
+    text-align: center;
+    position: relative;
+    top: calc(50% - 9px);
+    background: transparent;
+    font-size: 22px;
+}
+.footer {
+    height: 100% !important;
+    text-align: center;
+}
+.links {
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.6rem;
+}
+.links:hover {
+    color:#1c73e4 !important
+}

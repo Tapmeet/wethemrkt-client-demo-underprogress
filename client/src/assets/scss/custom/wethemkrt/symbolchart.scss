@@ -1,0 +1,65 @@
+.btn-watchlist{
+    position: relative;
+    right: 35px;
+}
+
+.symbol-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.symbol-title span{
+    font-size: 35px;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+
+
+.symbol-percentage-down{
+    font-size: 16px;
+    color: red;
+    position: relative;
+    bottom: -8px;
+    left: 5px;
+}
+
+.symbol-percentage-up{
+    font-size: 16px;
+    color: green;
+    position: relative;
+    bottom: -8px;
+    left: 5px;
+}
+
+.symbol-icon{
+    font-size: 26px;
+    position: relative;
+    bottom: -4px;
+   
+}
+
+
+
+@media (max-width: 320px) {
+    .symbol-title{
+        font-size: 22px;
+        font-weight: 600;
+        color: #2e2e2e;
+    }
+    
+    .symbol-title span{
+        font-size: 22px;
+        font-weight: 400;
+        color: #2e2e2e;
+    }
+
+    .symbol-percentage-up {
+        font-size: 11px;
+        color: green;
+        position: relative;
+        bottom: 3px;
+        left: 5px;
+    }
+    
+  }

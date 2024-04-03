@@ -1,0 +1,64 @@
+.leaderboard {
+	.card {
+		h4 {
+			padding: 20px;
+		}
+	}
+}
+.left_sidebar {
+	background: #fff;
+}
+
+.graph-partbox {
+	border: solid 1px #ddd;
+	padding: 10px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.graph-partbox:last-child {
+	margin-bottom: 0px;
+}
+
+/* leaderboard design start*/
+.sf-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin: 0px -10px;
+	margin-bottom: 20px;
+}
+.sf-group {
+	padding: 0px 10px;
+}
+.sf-6 {
+	width: 50%;
+}
+.sf-4 {
+	width: 33.33%;
+}
+select.filter-control {
+	width: 100%;
+	height: 40px;
+	border-radius: 6px;
+	border: solid 1px #ddd;
+	padding: 6px 12px;
+	outline: none;
+}
+.main-filterlist .fl-list-group .left-list > span.number-icnbox {
+	width: 25px;
+	height: 25px;
+	border: solid 1px #ffbc3f;
+	border-radius: 50%;
+	margin-right: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff8ec;
+}
+.main-filterlist li.fl-list-group {
+	padding: 15px 10px;
+}
+/* leaderboard design end*/

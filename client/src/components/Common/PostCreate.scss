@@ -1,0 +1,31 @@
+.circle-shadow-a {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+.circle-shadow-a i {
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+}
+
+div.DraftEditor-root + div {
+    div {
+        div {
+            margin-left: 2px;
+            div {
+                font-size: 12px;
+                font-weight: 400;
+                margin-top: -4px;
+                margin-bottom: 2px;
+                div:first-child {
+                    font-size: 14px;
+                    color: #000;
+                    font-weight: 500;
+                    margin-top: 2px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}

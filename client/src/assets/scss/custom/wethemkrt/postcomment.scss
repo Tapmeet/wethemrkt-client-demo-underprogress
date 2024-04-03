@@ -1,0 +1,56 @@
+
+.btn-postcommentimgupload{
+    background-color: transparent;
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 22px;
+    padding-top: 3px;
+    border-radius:50px;
+    margin-right: 5px;
+    transition: 0.4s;
+}
+
+.btn-postcommentimgupload:hover{
+    transform: scale(1.1);
+    border: none;
+    font-size: 22px;
+    padding-top: 3px;
+    color: #556ee6;
+}
+
+.post-btn button{
+    background-color: #1c73e4 !important;
+    color: #fff;
+    font-weight: 600;
+    transition:0.4s;
+  }
+
+  .post-btn button:hover{
+    color: #1c73e4 !important;
+    background-color: rgb(219, 239, 252) !important;
+  }
+
+.post-btn-grey button{
+    background-color: #74788d !important;
+    color: #eff2f7;
+    font-weight: 600;
+    transition:0.4s;
+  }
+
+  .post-btn-grey button:hover{
+    color: #74788d !important;
+    background-color: #eff2f7 !important;
+  }
+
+  .m6zwb4v, .m6zwb4v:visited {
+    color: #556ee6 !important;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 15px;
+}

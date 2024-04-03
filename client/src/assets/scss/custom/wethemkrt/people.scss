@@ -1,0 +1,237 @@
+.people-margin i{
+    margin-right: 63px !important;
+}
+
+.people-pointer{
+    cursor: pointer;
+}
+
+
+.icon-p{
+    padding: 3px 6px;
+    transition: 0.4s;
+}
+
+.post-icon-chat:hover{
+    background-color: #e8f3ff!important;
+    color: #218dff!important;
+    border-radius: 100px;
+}
+
+.post-icon-retweet:hover{
+    background-color: #e6f8f1!important;
+    color: #0aba74!important;
+    border-radius: 100px;
+}
+
+.post-icon-heart:hover{
+    background-color: #ffecec!important;
+    color: #ff3e3e!important;
+    border-radius: 100px;
+}
+.post-icon-share:hover{
+    background-color: #e8f3ff!important;
+    color: #218dff!important;
+    border-radius: 100px;
+}
+.post-icon-magnify:hover{
+    background-color: #e8f3ff!important;
+    color: #218dff!important;
+    border-radius: 100px;
+}
+
+.spn-people-hashtag{
+    background: transparent !important;
+    cursor: default !important;
+    border: 1px solid #556ee6;
+    color: #556ee6;
+}
+
+.spn-people-hashtag:hover{
+    background: transparent !important;
+    color: #556ee6 !important;
+}
+
+
+.btn-icon-sentiment {
+    font-size: 15px;
+    background-color: #ffebeb;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.mr-50{
+    margin-right: 50px;
+}
+
+@media (max-width: 538px) {
+    .mr-50{
+        margin-right: 20px;
+    }
+    
+}
+
+.post-btn-grey button{
+    background-color: #74788d !important;
+    color: #eff2f7;
+    font-weight: 600;
+    transition:0.4s;
+  }
+
+  .post-btn-grey button:hover{
+    color: #74788d !important;
+    background-color: #eff2f7 !important;
+  }
+
+  .m6zwb4v, .m6zwb4v:visited {
+    color: #556ee6 !important;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: transparent !important;
+}
+
+.box-hover h1{
+    opacity: 0 !important;
+}
+
+.profile-hover:hover > .box-hover{
+    opacity: 1 !important;
+}
+
+
+// ------ profile hover-------
+
+@media (min-width: 768px) {
+    .tooltipyy:hover .classic {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .tooltipyy:hover .classic {
+        display: block !important;
+    }
+}
+
+ 
+.tooltipyy {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltipyy .classic {
+    margin-left: -999em;
+    position: absolute;
+}
+
+.tooltipyy:hover .classic {
+    box-shadow: 0px 8px 20px 1px rgba(202, 202, 202, 0.3);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 21px;
+    z-index: 99;
+    margin-left: 0;
+    width: 330px;
+}
+
+.classic {
+    padding: 15px;
+}
+
+.classic {
+   background: #fff;
+    border: 1px solid #eff2f7 ;
+}
+
+.hover-profile-name{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.hover-profile-name:hover{
+    color: #000 !important;
+}
+.hover-time{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-name{
+    transition: 0.4s;
+}
+
+.user-name h5:hover{
+    color: #4458b8;
+}
+
+.border-t {
+    border-top: 1px solid #eff2f7;
+}
+
+.border-b {
+    border-top: 1px solid #eff2f7;
+}
+
+.followin-text-hover h6{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.followin-text-hover span{
+    font-size: 12px !important;
+    color: #74788d !important;
+    font-weight: 400 !important;
+}
+
+.view-profile-text{
+    font-weight: 500;
+}
+
+.one-line-dot{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
+  .icon-text{
+      position: relative;
+  }
+
+  .down-vote-text {
+    position: absolute;
+    top: 33px;
+    left: 16px;
+    font-size: 6px;
+}
+
+.btn-check:checked + .btn-outline-success-icon .down-vote-text {
+    color: #000000 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-check:checked + .btn-outline-danger-icon .down-vote-text {
+    color: #000000 !important;
+}
+
+.link-preview{
+    margin-left: 65px;
+}

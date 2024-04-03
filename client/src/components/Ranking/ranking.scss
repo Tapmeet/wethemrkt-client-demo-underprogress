@@ -1,0 +1,33 @@
+.ranking-list:hover {
+	background: #ccc;
+	div {
+		background: #ccc;
+	}
+}
+#tecFundSelect {
+	appearance: auto;
+}
+#filterTimeSelect {
+	appearance: auto;
+}
+.symbol-tooltip {
+	display: none;
+	position: absolute;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	z-index: 100;
+	box-shadow: 0 0 5px #ccc;
+	margin-top: 10px;
+	margin-left: 10px;
+	.symbol-tooltip-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.symbol-tooltip-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

@@ -1,0 +1,27 @@
+.imagePreviewDivBtnTag {
+	overflow: auto;
+	padding: 20px;
+}
+
+.close-button {
+	position: relative !important;
+	border: 1px;
+}
+
+.imagePreviewDivBtnTag {
+	position: relative !important;
+	left: 20% !important;
+}
+
+.close-button {
+	position: relative !important;
+	left: 38%;
+	border: 1px;
+}
+
+/* .dashboard-technical{
+    position: relative;
+}
+.dashboard-fundamental{
+    position: relative;
+} */

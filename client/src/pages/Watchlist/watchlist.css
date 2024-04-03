@@ -1,0 +1,62 @@
+.deleteButtonWatchlist {
+    left: 0px;
+}
+
+a.text-dark.ml-2.pl-2 {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+
+.symbol-data-diff .green {
+    color: #2d8c26;
+}
+
+.symbol-data-diff .red {
+    color: #bb2d3b;
+}
+
+.theme-table table th {
+    font-size: 14px;
+    color: #202020;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.theme-table table {
+    width: 100%;
+}
+
+.title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-btn {
+    text-decoration: none !important;
+}
+
+.short-text {
+    font-size: 14px;
+}
+
+.theme-table tr td {
+    padding: 10px 8px;
+    font-weight: 500;
+    color: #505050;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .theme-table {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .title-group a.theme-btn.pb-btn {
+        font-size: 11px;
+    }
+
+}

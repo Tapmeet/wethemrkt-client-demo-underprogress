@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+  .container{
+    position: relative;
+  }
+  .container textarea {
+    display: block;
+    width: 100% !important;
+    resize: vertical;
+  }
+  
+  .container .pstslider {
+    padding: 10px 20px;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px; /* <==== */
+  }
+
+  div.DraftEditor-root {
+    /* border: 1px solid #000; */
+    /* background-color: beige; */
+    height: auto;
+    /* width: 300px; */
+    overflow-y: auto;
+  }
+
+  div.DraftEditor-editorContainer,
+div.public-DraftEditor-content {
+  height: 100%;
+}
+
+.imagePreviewDivBtnTag {
+  img {
+    border: solid #1b72e4 1rem;
+    width: 100%;
+    margin: 4px
+  }
+  .__react_modal_image__modal_container{
+    img {
+      width: 90%;
+    }
+  }
+  .message-img {
+    border: solid #1b72e4 1rem;
+  }
+}
